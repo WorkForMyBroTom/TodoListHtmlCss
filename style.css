@@ -2,7 +2,7 @@ body {
   margin: 0;
   background: linear-gradient(45deg, #b11717, #f3a303);
   background-size: 900% 900%;
-  animation: gradient 5s ease infinite;
+  animation: gradient 2s ease infinite;
   font-family: sans-serif;
   -webkit-box-sizing: content-box;
   box-sizing: content-box; }
@@ -19,8 +19,8 @@ body {
    }
 }
 .container {
-  
-  padding-top: 100px; }
+  padding-left: 600px;
+  padding-top: 60x; }
   
 
 
@@ -49,11 +49,16 @@ input[type=text] {
   padding: 10px; }
 
 button {
+ top: 600px;
+ left: 3px;
   margin-top: 10px;
   width: 400px;
   padding: 10px;
   color: rgb(255, 0, 0);
-  cursor: pointer; }
+  cursor: pointer; 
+  position: absolute;
+}
+  
 .important {
    font-weight: bold;
    color: #A40E11; }
